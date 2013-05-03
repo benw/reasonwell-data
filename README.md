@@ -1,6 +1,6 @@
-Data exported from public debate on [Reasonwell][], under CC-BY-SA.
+Data exported from public debate on [Reasonwell](http://www.reasonwell.com/), under CC-BY-SA with [attribution required](http://www.reasonwell.com/about/Attribution).
 
-[Reasonwell]: http://www.reasonwell.com/
+[This article](http://www.reasonwell.com/about/Reasonwell+vs+Github+and+Stack+Overflow) has some discussion of the object model.
 
 premises.csv:
 
@@ -11,6 +11,8 @@ arguments.csv:
 
 * `contention_id` is the `claim.id` of the claim that is being argument for or against
 * `supports` = `t` if it argues for, `f` if it argues against
+
+You get the idea.
 
 You can refer to claims in the web interface by constructing URLs like this:
 
@@ -25,5 +27,7 @@ Same works for edits, flaws and assumptions:
 Arguments are different, for now:
 
 * http://www.reasonwell.com/+0097feb44ddf4ef60eb05af8e93f972c9148cb04dc0ddb0de3c01ef492728d47
+
+Please direct questions and comments to the [discussion group](https://groups.google.com/d/forum/reasonwell), thanks.
 
 [Ben Williamson](mailto:ben@reasonwell.com)
